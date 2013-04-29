@@ -1,0 +1,1 @@
+Web: node ./bin/gameserver
