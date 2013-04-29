@@ -1,0 +1,24 @@
+doctype 5
+html
+  head
+    if (title)
+      title= 'Demon Killer -- ' + title
+    else
+      title= 'Demon Killer'
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    div(id='dk-header')
+      h5(id='dk-logo')
+        a(href='/') Demon Killer
+      ul(id='dk-section-nav')
+        each name in ['About']
+          li
+            a(href=name.toLowerCase())= name
+
+    div(id='home')
+      div(class='wrapper')
+        block content
+
+    div(id='dk-footer')
+      div(class='container')
+        h2(class='hidden') Sitemap

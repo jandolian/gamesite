@@ -1,0 +1,32 @@
+{
+  "name":"demon_killer",
+  "version":"0.0.1",
+  "description": "Demon Killer Webapp",
+  "author": "Kyle adams <kyleadams_44@hotmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jandolian/demon_killer.git"
+  },
+  "dependencies": {
+    "winston": "0.7.1",
+    "winston-mixlib-log": "0.0.2",
+    "optimist": "0.4.0",
+    "nconf": "0.6.7",
+    "pkginfo": "0.2.3",
+    "express": "3.2.0",
+    "async": "0.2.7",
+    "jade": "0.29.0",
+    "stylus": "0.32.1",
+    "marked": "0.2.8",
+    "connect-assets": "2.4.1",
+    "nib": "0.9.1"
+  },
+  "devDependencies": {
+    "mocha": "1.9.0",
+    "chai": "1.5.0",
+    "coffee-script": "1.6.2",
+    "request": "2.20.0"
+  },
+  "scripts": { "pretest": "cake build", "prepublish": "cake build" },
+  "main": "./lib/application"
+}
