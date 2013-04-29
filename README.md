@@ -1,4 +1,4 @@
-gameserver
+gamesite
 ============
 
-The base gameserver website
+The base gamesite website

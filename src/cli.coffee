@@ -14,7 +14,7 @@ class CLI
       # configuration
       .alias('c', 'config')
       .describe('c', 'The configuration file to use')
-      .default('c', "/etc/gameserver.json")
+      .default('c', "/etc/gamesite.json")
 
       # logging
       .alias('l', 'loglevel')

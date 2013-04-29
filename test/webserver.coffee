@@ -23,6 +23,6 @@ describe 'WebServer', ->
     client.get url.resolve(u, '/version'), json: true
     , (err, res, data) ->
       assert.ifError err
-      data.name.should.equal "gameserver"
+      data.name.should.equal "gamesite"
       assert.notEqual data.version, undefined
       done()
