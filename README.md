@@ -1,4 +1,4 @@
-demon_killer
+gameserver
 ============
 
-The base demon_killer website
+The base gameserver website

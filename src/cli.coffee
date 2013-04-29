@@ -14,7 +14,7 @@ class CLI
       # configuration
       .alias('c', 'config')
       .describe('c', 'The configuration file to use')
-      .default('c', "/etc/demon_killer.json")
+      .default('c', "/etc/gameserver.json")
 
       # logging
       .alias('l', 'loglevel')

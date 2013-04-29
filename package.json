@@ -1,11 +1,11 @@
 {
-  "name":"demon_killer",
+  "name":"gameserver",
   "version":"0.0.1",
-  "description": "Demon Killer Webapp",
+  "description": "Game Server Webapp",
   "author": "Kyle adams <kyleadams_44@hotmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jandolian/demon_killer.git"
+    "url": "https://github.com/jandolian/gameserver.git"
   },
   "dependencies": {
     "winston": "0.7.1",
